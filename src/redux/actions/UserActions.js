@@ -109,6 +109,7 @@ export const setUserDetails = (index) => async (dispatch, getState) => {
     payload,
   });
 };
+
 export const clearUserFileds = (index) => async (dispatch) => {
   dispatch({
     type: 'CLEAR_USER',

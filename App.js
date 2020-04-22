@@ -7,7 +7,7 @@ import thunk from 'redux-thunk';
 import {applyMiddleware, createStore} from 'redux';
 import reducer from './src/redux/reducers';
 import UserList from './src/components/UserList';
-import Camera from './src/components/common/Camera';
+import Camera from './src/components/Camera';
 
 const Stack = createStackNavigator();
 

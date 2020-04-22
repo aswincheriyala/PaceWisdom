@@ -18,7 +18,7 @@ import {
   clearUserFileds,
   onChangeText,
 } from '../redux/actions/UserActions';
-import ScrollContainer from './ScrollContainer';
+import ScrollContainer from './common/ScrollContainer';
 import Button from './common/Button';
 
 class AddUser extends Component {
@@ -28,7 +28,6 @@ class AddUser extends Component {
     props.navigation.setOptions({title});
     this.save = this.save.bind(this);
     this.delete = this.delete.bind(this);
-    // this.renderInputs = this.renderInputs.bind(this);
   }
   componentDidMount() {
     const {setLocationData, route, setUserData} = this.props;

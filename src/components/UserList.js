@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {View, Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
 import {connect} from 'react-redux';
-import ScrollContainer from './ScrollContainer';
+import ScrollContainer from './common/ScrollContainer';
 import {fetchUserDetails} from '../redux/actions/UserActions';
 import Button from './common/Button';
 

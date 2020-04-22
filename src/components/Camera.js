@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
 import {RNCamera} from 'react-native-camera';
 import {connect} from 'react-redux';
-import {onChangeText} from '../../redux/actions/UserActions';
+import {onChangeText} from '../redux/actions/UserActions';
 const Camera = ({navigation, setImage}) => {
   const takePicture = async (camera) => {
     const options = {quality: 0.5, base64: true};
