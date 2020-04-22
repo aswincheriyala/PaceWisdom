@@ -43,10 +43,10 @@ export const deleteUserDetail = (index, callback) => async (
 ) => {
   const {list} = getState().user;
   const finalList = [...list];
-  finalList.splice(index, 1);
+  finalList.splice(index - 1, 1);
   await firestore()
     .collection('Users')
-    .doc(list[index].id)
+    .doc(list[index - 1].id)
     .delete()
     .then(() => {
       console.log('User deleted!');
