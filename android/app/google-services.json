@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "412762545652",
+    "firebase_url": "https://pacewisdomtest.firebaseio.com",
+    "project_id": "pacewisdomtest",
+    "storage_bucket": "pacewisdomtest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412762545652:android:5d0dfe436bf4c5881e2da1",
+        "android_client_info": {
+          "package_name": "com.pacewisdomtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412762545652-2ucdda5qp712t7ac487m3vit9cl92da8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy9R0lqATeWTNcAkD0KSPsk0_uJ7Dv7fY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412762545652-2ucdda5qp712t7ac487m3vit9cl92da8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
